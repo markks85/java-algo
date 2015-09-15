@@ -9,8 +9,9 @@ package variable;
 public class VariableDemo3 {
 /**
  * 데이터 타입이란 ?
- * - 메모리를 생성하기 위한 도구
- * >메모리 크기(Size)와 메모리 형태(Type)을 저장하기 위한 도구
+ * - 메모리를 생성하기 위한 도구 =
+ * => 메모리 크기(Size)와 메모리 형태(Type)을 저장하기 위한 도구
+ * 
  * 메모리를 얻고 사용하는 방법
  * - 메모리 크기를 설정
  * - 메모리에 식별지(고유 이름)할당
@@ -24,7 +25,7 @@ public class VariableDemo3 {
  * 
  * 데이터 타입의 종류
  * 기본형 (Primitive type) 기본자료형 (첫글자가 소문자)
- * 참조형 ( reference type) 객체자료형(첫글자가 대문자 (예) String)
+ * 참조형 (reference type) 객체자료형(첫글자가 대문자 (예) String)
  * 
  * [기본 자료형]
  * 정수형 : byte < short < int < long

@@ -6,7 +6,7 @@ package variable;
  * @date      : 2015. 9. 15.
  * @story     : 변수 작성 방법
  */
-public class VariblaDemo2 {
+public class VariablaDemo2 {
 	/**
 	 * 변수의 작성 규칙
 	 * (1) 알파벳 대소문자, 숫자, _(underscore), $만 사용가능

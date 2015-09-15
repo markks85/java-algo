@@ -2,7 +2,7 @@ package hello;
 
 import java.util.Scanner;
 
-public class name5 { 
+public class Name5 { 
 	public static void main(String[] args) {
 		String hello = "안녕";
 		System.out.println(hello);
