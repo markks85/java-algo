@@ -31,6 +31,6 @@ public class VariableDemo3 {
  * 정수형 : byte < short < int < long
  * 실수형 : float < double
  * 논리형 : boolean
- * 문자형 : chan
+ * 문자형 : char
  */
 }
