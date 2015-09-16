@@ -15,9 +15,8 @@ public class OpCode {
 		 */
 		int a, b, c; // 타입이 동일한 변수를 선언할 때 묶음처리 가능
 		a = b = 10;
-		a = b = 10;
 		c =  a + b;
-		System.out.println("결과 값");
+		System.out.println("결과 값"+c);
 	}
 
 }

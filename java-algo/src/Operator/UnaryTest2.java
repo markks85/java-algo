@@ -8,13 +8,10 @@ package Operator;
 	 */
 public class UnaryTest2 {	
 	public static void main(String[] args) {
-		int a  = 10, b = 20;
-		System.out.println(++a);
-		System.out.println(++a + b++);
-		System.out.println((++a%3)+(a*++b));
-		
-		//프로그래밍에서 나눗셈은 두가지 결과값을 가진다
-		//하나는 몫만 취하는 것이고, 다른 하나는 나머지 값만 취한다.
+		int x=11, y=5, z=0;
+		System.out.println(x/y);
+		System.out.println(x%y);
+				
 	}
 	
 }
