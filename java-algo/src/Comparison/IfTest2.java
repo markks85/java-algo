@@ -9,7 +9,7 @@ import java.util.Scanner;
 	 * @date      : 2015. 9. 17.
 	 * @story     : 1등 구하기
 	 */
-public class Iftest2Demo {		
+public class IfTest2 {		
 	/**
 	 * To. 박광석님
 	 * 프로그램을 하나 개발해야 합니다.
@@ -24,13 +24,14 @@ public class Iftest2Demo {
 	 */
 	
 	
-		public static void main(String[] args) {
+		public static void main(String[] args) 
+		{
 			Scanner scanner = new Scanner(System.in);
+			
 			System.out.println("1번 학생의 이름을 입력하세요");
 			String name1 = scanner.next();
 			System.out.println("1번 학생의 평균을 입력하세요");
-			int avg1 = scanner.nextInt();
-			
+			int avg1 = scanner.nextInt();			
 			System.out.println("2번 학생의 이름을 입력하세요");
 			String name2 = scanner.next();
 			System.out.println("2번 학생의  평균을 입력하세요");
@@ -40,14 +41,10 @@ public class Iftest2Demo {
 			System.out.println("3번학생의 평균을 입력하세요");
 			int avg3 = scanner.nextInt();
 						
-			if(avg1>100 || avg1<0 ||avg2>100 || avg2<0 ||avg3>100 || avg3<0 ){
-				System.out.println("안됨");
-			}
-			else if (avg1>avg2 && avg1>avg3){
-				System.out.println("1등은 : " + name1);
-			}else if(avg2>avg3){
-				System.out.println("1등은 : " + name2);
-			}else{System.out.println("1등은 : " + name3);}	
+			//if(avg1>100 || avg1<0 ||avg2>100 || avg2<0 ||avg3>100 || avg3<0 ){
+			//	System.out.println("안됨");
+			//}
+			
 		
 	
 			
